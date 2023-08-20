@@ -5,7 +5,7 @@
                 <div id="Posts" class="px-4 max-w-[600px] mx-auto">
 
                     <div v-if="isPosts" v-for="post in posts" :key="post">
-                        <Post post="post" @isDeleted="posts = []" />
+                        <Post :post="post" @isDeleted="posts = []" />
                     </div>
                 </div>
             </div>
