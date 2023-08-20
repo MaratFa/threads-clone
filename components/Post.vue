@@ -69,11 +69,19 @@
 
         <div class="relative inline-block text-gray-500 pt-1 pb-1.5">
             <div class="flex items-center">
-                <div>
-                    
+                <div class="flex items-center flex-wrap text-white gap-1 w-[42px]">
+                    <div class="flex gap-0.5">
+                        <img class="rounded-full h-[14px] mt-2" src="https://picsum.photos/id/202/50">
+                        <img class="rounded-full h-[17px]" src="https://picsum.photos/id/223/50">
+                    </div>
+                    <div class="flex items-center">
+                        <img class="rounded-full h-[11px] ml-4" src="https://picsum.photos/id/99/50"/>
+                    </div>
                 </div>                
             </div>            
         </div>
+
+        <div class="h-[1px] bg-gray-800 w-full mt-3" />
     </div>
 </template>
 
