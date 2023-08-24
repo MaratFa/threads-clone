@@ -1,10 +1,10 @@
-import { PrismaClient } from "@prisma/client";
-const prisma = new PrismaClient();
+import { PrismaClient } from '@prisma/client'
+const prisma = new PrismaClient()
 
-export default defineEventHandker(async (event) => {
-  let posts = await prisma.posts.findMany({
-    orderBy: { id: "desc" },
-    include: { likes: true },
-  });
-  return posts
-});
+export default defineEventHandler(async (event) => {
+    let posts = await prisma.posts.findMany({
+        orderBy: { id: "desc" },
+        include: { likes: true }
+    })
+    return posts
+})
