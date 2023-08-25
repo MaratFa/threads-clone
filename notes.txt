@@ -2,7 +2,7 @@ CREATE PROJECT
 npx nuxi@latest init threads-clone
 
 SUPABASE:
-project password: thisisatest123!
+project password: see supabase.com -> dashboard -> project -> Project Settings -> Database -> Database password
 
 PRISMA:
 npx prisma init
